@@ -1,0 +1,17 @@
+{
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "manifest_version": 2,
+  "name": "长城语音识别",
+  "version": "1.0",
+  "description": "长城语音识别",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "permissions": ["audioCapture", "http://111.47.10.117:30012/"]
+}
